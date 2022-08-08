@@ -19,14 +19,36 @@ li{
     margin: 0;
 }
 
-.conteiner{
-    max-width: 1320px;
-    padding: 15px 0;
-}
 
 body{
     background: var(--background-color);
     color: var(--text-color);
 
     font-family: 'Montserrat';
+}
+
+.conteiner{
+    max-width: 1320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section{
+    padding: 90px 0;
+}
+
+.conteiner> .privilege{
+    display: flex;
+    align-items: center;
+}
+
+.conteiner>.privilege:first-child {
+    margin-bottom: 90px;
+}
+
+.img-privilege:first-child{
+    margin-right: 140px;
+
 }
