@@ -48,7 +48,7 @@ body{
     margin-bottom: 90px;
 }
 
-.img-privilege:first-child{
+.conteiner .img-privilege:first-child{
     margin-right: 140px;
 
 }
